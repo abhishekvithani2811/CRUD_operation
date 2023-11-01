@@ -14,7 +14,7 @@ function EditStudent() {
         const error = {}
 
         if (!name) {
-            error.name = "please enter name"
+            error.name = "please enter name",
         }
         if(!std){
             error.std= "enter std"
