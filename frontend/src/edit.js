@@ -8,7 +8,7 @@ function EditStudent() {
     const [fees, setFees] = useState('')
     const [mo_number, setMo_number] = useState('')
     const {rollno}=useParams();
-    const navigate =  useNavigate()
+    const navigate = useNavigate()
 
     const validate = () => {
         const error = {}
